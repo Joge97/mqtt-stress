@@ -1,0 +1,34 @@
+{
+    "name": "mqtt-stress",
+    "version": "0.0.0",
+    "description": "CLI Tool for sending a lot of messages over mqtt for stress testing services",
+    "main": "./lib/index.js",
+    "scripts": {
+        "serve": "tsc -w",
+        "build": "rimraf lib && tsc",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+        "prepublish": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/Joge97/mqtt-stress.git"
+    },
+    "keywords": [
+        "mqtt",
+        "stress",
+        "test"
+    ],
+    "author": "Joge",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Joge97/mqtt-stress/issues"
+    },
+    "homepage": "https://github.com/Joge97/mqtt-stress#readme",
+    "devDependencies": {
+        "conventional-changelog-cli": "^2.0.11",
+        "rimraf": "^2.6.3",
+        "tslint": "^5.12.0",
+        "typescript": "^3.2.2"
+    }
+}

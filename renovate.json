@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "config:base",
+    "config:js-lib",
+    ":semanticCommitScope(dependencies)"
+  ],
+  "updateLockFiles": true,
+  "packageRules": [
+    {
+      "packageNames": [
+        "@types/node"
+      ],
+      "major": {
+        "enabled": true
+      }
+    }
+  ]
+}
+
