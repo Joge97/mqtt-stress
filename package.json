@@ -1,6 +1,6 @@
 {
     "name": "mqtt-stress",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "CLI Tool for sending a lot of messages over mqtt for stress testing services",
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
