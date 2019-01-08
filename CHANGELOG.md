@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/Joge97/mqtt-stress/compare/v1.0.0...v1.0.1) (2019-01-08)
+
+
+### Bug Fixes
+
+* **ReadMe:** update read me ([22646cb](https://github.com/Joge97/mqtt-stress/commit/22646cb))
+
+
+
 # 1.0.0 (2019-01-08)
 
 
