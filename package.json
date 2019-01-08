@@ -4,6 +4,9 @@
     "description": "CLI Tool for sending a lot of messages over mqtt for stress testing services",
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
+    "bin": {
+        "mqtt-stress": "./lib/cli.js"
+    },
     "scripts": {
         "serve": "tsc -w",
         "build": "rimraf lib && tsc",
@@ -35,6 +38,7 @@
     },
     "dependencies": {
         "@types/node": "^10.12.18",
-        "async-mqtt": "^2.0.0"
+        "async-mqtt": "^2.0.0",
+        "commander": "^2.19.0"
     }
 }
